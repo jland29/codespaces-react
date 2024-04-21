@@ -2,30 +2,28 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App header {
+  overflow-y: hidden;
+  height: 15vh;
+  width: 100%;
+  position: relative;
+  margin: 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App .banner {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
 }
 
-.App-link {
-  color: #61dafb;
+.App .banner-img {
+  width: 100%;
+  height: 100%;
 }
 
-.heart {
-  color: #ff0000;
-}
-
-.small {
-  font-size: 0.75rem;
+.logo-header {
+  height: 90%;
+  margin-left: 2%;
+  position: absolute;
+  top: 5%;
 }
